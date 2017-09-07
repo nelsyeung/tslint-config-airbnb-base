@@ -1,0 +1,40 @@
+{
+  "name": "tslint-config-airbnb-base",
+  "version": "0.1.0",
+  "description": "Airbnb's base TSLint config, following Airbnb's styleguide",
+  "main": "index.js",
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "rules": {
+      "comma-dangle": 0
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsyeung/tslint-config-airbnb-base.git"
+  },
+  "keywords": [
+    "airbnb",
+    "config",
+    "javascript",
+    "styleguide",
+    "tslint",
+    "tslintconfig",
+    "typescript"
+  ],
+  "author": "Nelson Yeung (http://nelsyeung.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nelsyeung/tslint-config-airbnb-base/issues"
+  },
+  "homepage": "https://github.com/nelsyeung/tslint-config-airbnb-base#readme",
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "dependencies": {
+    "tslint-eslint-rules": "^4.1.1",
+    "tslint-consistent-codestyle": "^1.6.0"
+  }
+}

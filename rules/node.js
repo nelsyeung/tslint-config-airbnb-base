@@ -8,14 +8,14 @@ module.exports = {
     // 'callback-return': 'off', NO-SUPPORT
 
     // require all requires be top-level
-    // http://eslint.org/docs/rules/global-require
+    // https://eslint.org/docs/rules/global-require
     // 'global-require': 'error', NO-SUPPORT
 
     // enforces error handling in callbacks (node environment)
     'handle-callback-err': false,
 
     // disallow use of the Buffer() constructor
-    // http://eslint.org/docs/rules/no-buffer-constructor
+    // https://eslint.org/docs/rules/no-buffer-constructor
     // 'no-buffer-constructor': 'error', NO-SUPPORT
 
     // disallow mixing regular variable and require declarations
@@ -25,7 +25,7 @@ module.exports = {
     // 'no-new-require': 'error', NO-SUPPORT
 
     // disallow string concatenation with __dirname and __filename
-    // http://eslint.org/docs/rules/no-path-concat
+    // https://eslint.org/docs/rules/no-path-concat
     // 'no-path-concat': 'error', NO-SUPPORT
 
     // disallow use of process.env

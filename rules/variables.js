@@ -10,7 +10,7 @@ module.exports = {
     // 'no-delete-var': 'error', NOT-APPLICABLE
 
     // disallow labels that share a name with a variable
-    // http://eslint.org/docs/rules/no-label-var
+    // https://eslint.org/docs/rules/no-label-var
     // 'no-label-var': 'error', NO-SUPPORT
 
     // disallow declaration of variables already declared in the outer scope
@@ -26,7 +26,7 @@ module.exports = {
     // 'no-undef-init': 'error', NO-SUPPORT
 
     // disallow use of undefined variable
-    // http://eslint.org/docs/rules/no-undefined
+    // https://eslint.org/docs/rules/no-undefined
     // TODO: enable?
     // 'no-undefined': 'off', NO-SUPPORT
 

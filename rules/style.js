@@ -337,7 +337,7 @@ module.exports = {
     // 'no-spaced-func': 'error', NO-SUPPORT
 
     // disallow tab characters entirely
-    // 'no-tabs': 'error', NO-SUPPORT
+    'ter-no-tabs': true,
 
     // disallow the use of ternary operators
     // 'no-ternary': 'off', NO-SUPPORT
@@ -400,8 +400,7 @@ module.exports = {
     // 'operator-linebreak': ['error', 'before', { overrides: { '=': 'none' } }], NO-SUPPORT
 
     // disallow padding within blocks
-    // 'padded-blocks': [ NO-SUPPORT
-    //   'error', { blocks: 'never', classes: 'never', switches: 'never' }],
+    'ter-padded-blocks': [true, { blocks: 'never', classes: 'never', switches: 'never' }],
 
     // Require or disallow padding lines between statements
     // https://eslint.org/docs/rules/padding-line-between-statements

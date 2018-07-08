@@ -177,7 +177,7 @@ module.exports = {
     // }],
 
     // disallow usage of __proto__ property
-    // 'no-proto': 'error', NO-SUPPORT
+    'ter-no-proto': true,
 
     // disallow declaring the same variable more then once
     'no-duplicate-variable': true,
@@ -231,14 +231,14 @@ module.exports = {
     // 'no-return-await': 'error', NO-SUPPORT
 
     // disallow use of `javascript:` urls.
-    // 'no-script-url': 'error', NO-SUPPORT
+    'ter-no-script-url': true,
 
     // disallow self assignment
     // https://eslint.org/docs/rules/no-self-assign
     // 'no-self-assign': 'error', NO-SUPPORT
 
     // disallow comparisons where both sides are exactly the same
-    // 'no-self-compare': 'error', NO-SUPPORT
+    'ter-no-self-compare': true,
 
     // disallow use of comma operator
     // 'no-sequences': 'error', NO-SUPPORT

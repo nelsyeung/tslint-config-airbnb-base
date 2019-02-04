@@ -260,6 +260,11 @@ module.exports = {
     // disallow unnecessary .call() and .apply()
     // 'no-useless-call': 'off', NO-SUPPORT
 
+    // Disallow unnecessary catch clauses
+    // https://eslint.org/docs/rules/no-useless-catch
+    // TODO: enable, semver-major
+    // 'no-useless-catch': 'off', NO-SUPPORT
+
     // disallow useless string concatenation
     // https://eslint.org/docs/rules/no-useless-concat
     // 'no-useless-concat': 'error', NO-SUPPORT
@@ -293,6 +298,10 @@ module.exports = {
     // require `await` in `async function` (note: this is a horrible rule that should never be used)
     // https://eslint.org/docs/rules/require-await
     // 'require-await': 'off', NO-SUPPORT
+
+    // Enforce the use of u flag on RegExp
+    // https://eslint.org/docs/rules/require-unicode-regexp
+    // 'require-unicode-regexp': 'off', NO-SUPPORT
 
     // requires to declare all vars on top of their containing scope
     // 'vars-on-top': 'error', NO-SUPPORT

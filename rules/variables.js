@@ -1,3 +1,5 @@
+// const confusingBrowserGlobals = require('confusing-browser-globals'); NO-SUPPORT
+
 module.exports = {
   rules: {
     // enforce or disallow variable initializations at definition
@@ -12,6 +14,9 @@ module.exports = {
     // disallow labels that share a name with a variable
     // https://eslint.org/docs/rules/no-label-var
     // 'no-label-var': 'error', NO-SUPPORT
+    //
+    // disallow specific globals
+    // 'no-restricted-globals': ['error', 'isFinite', 'isNaN'].concat(confusingBrowserGlobals), NO-SUPPORT
 
     // disallow declaration of variables already declared in the outer scope
     'no-shadowed-variable': true,

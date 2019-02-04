@@ -350,7 +350,7 @@ module.exports = {
     //   allow: [],
     //   allowAfterThis: false,
     //   allowAfterSuper: false,
-    //   enforceInMethodNames: false,
+    //   enforceInMethodNames: true,
     // }],
 
     // disallow the use of Boolean literals in conditional expressions

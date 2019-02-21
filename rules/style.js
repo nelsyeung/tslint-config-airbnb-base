@@ -267,24 +267,24 @@ module.exports = {
     // disallow un-paren'd mixes of different operators
     // https://eslint.org/docs/rules/no-mixed-operators
     // 'no-mixed-operators': ['error', { NO-SUPPORT
-      // the list of arthmetic groups disallows mixing `%` and `**`
-      // with other arithmetic operators.
-      // groups: [
-        // ['%', '**'],
-        // ['%', '+'],
-        // ['%', '-'],
-        // ['%', '*'],
-        // ['%', '/'],
-        // ['**', '+'],
-        // ['**', '-'],
-        // ['**', '*'],
-        // ['**', '/'],
-        // ['&', '|', '^', '~', '<<', '>>', '>>>'],
-        // ['==', '!=', '===', '!==', '>', '>=', '<', '<='],
-        // ['&&', '||'],
-        // ['in', 'instanceof']
-      // ],
-      // allowSamePrecedence: false
+    //   the list of arthmetic groups disallows mixing `%` and `**`
+    //   with other arithmetic operators.
+    //   groups: [
+    //     ['%', '**'],
+    //     ['%', '+'],
+    //     ['%', '-'],
+    //     ['%', '*'],
+    //     ['%', '/'],
+    //     ['**', '+'],
+    //     ['**', '-'],
+    //     ['**', '*'],
+    //     ['**', '/'],
+    //     ['&', '|', '^', '~', '<<', '>>', '>>>'],
+    //     ['==', '!=', '===', '!==', '>', '>=', '<', '<='],
+    //     ['&&', '||'],
+    //     ['in', 'instanceof']
+    //   ],
+    //   allowSamePrecedence: false
     // }],
 
     // disallow mixed spaces and tabs for indentation

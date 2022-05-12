@@ -7,6 +7,10 @@
 This package provides Airbnb's base TSLint (without React plugins) as an
 extensible shared config.
 
+## This package has been deprecated
+
+TSLint has been deprecated in favor of ESLint.
+
 ## Purpose
 
 This package is aimed to have all the rules supplied by the original
